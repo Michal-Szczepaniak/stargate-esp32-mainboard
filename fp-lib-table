@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Stargate")(type "KiCad")(uri "${KIPRJMOD}/Stargate.pretty")(options "")(descr ""))
+)
