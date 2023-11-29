@@ -138,6 +138,7 @@
   (net 59 "unconnected-(U1-GPIO11{slash}ADC2_CH0-Pad17)")
   (net 60 "unconnected-(U1-GPIO12{slash}ADC2_CH1-Pad18)")
   (net 61 "unconnected-(U1-GPIO13{slash}ADC2_CH2-Pad19)")
+  (net 62 "unconnected-(U2-COM-Pad10)")
 
   (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" (layer "F.Cu")
     (tstamp 1c534023-0114-4565-8515-85967d102aff)
@@ -1559,7 +1560,7 @@
     (pad "9" thru_hole oval (at 0 20.32 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 25 "GND") (pinfunction "GND") (pintype "power_in") (tstamp d42af3e8-d688-4521-9bce-8202afe479c8))
     (pad "10" thru_hole oval (at 7.62 20.32 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
-      (net 25 "GND") (pinfunction "COM") (pintype "passive") (tstamp a37a81ac-85d7-40b8-a115-2d2197c19418))
+      (net 62 "unconnected-(U2-COM-Pad10)") (pinfunction "COM") (pintype "passive+no_connect") (tstamp a37a81ac-85d7-40b8-a115-2d2197c19418))
     (pad "11" thru_hole oval (at 7.62 17.78 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
       (net 57 "unconnected-(U2-O8-Pad11)") (pinfunction "O8") (pintype "open_collector") (tstamp 32610250-acdd-4ca0-980b-b61ca012ba46))
     (pad "12" thru_hole oval (at 7.62 15.24 270) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask")
